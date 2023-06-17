@@ -38,6 +38,7 @@ declare module '$env/static/private' {
 	export const XDG_SESSION_PATH: string;
 	export const TERM_PROGRAM_VERSION: string;
 	export const npm_package_integrity: string;
+	export const npm_config_resolution_mode: string;
 	export const NODE: string;
 	export const LC_ADDRESS: string;
 	export const LC_NAME: string;
@@ -114,6 +115,7 @@ declare module '$env/static/private' {
 	export const MAIL: string;
 	export const GIO_LAUNCHED_DESKTOP_FILE_PID: string;
 	export const npm_node_execpath: string;
+	export const npm_config_engine_strict: string;
 	export const GIO_LAUNCHED_DESKTOP_FILE: string;
 	export const LC_NUMERIC: string;
 	export const OLDPWD: string;
@@ -160,6 +162,7 @@ declare module '$env/dynamic/private' {
 		XDG_SESSION_PATH: string;
 		TERM_PROGRAM_VERSION: string;
 		npm_package_integrity: string;
+		npm_config_resolution_mode: string;
 		NODE: string;
 		LC_ADDRESS: string;
 		LC_NAME: string;
@@ -236,6 +239,7 @@ declare module '$env/dynamic/private' {
 		MAIL: string;
 		GIO_LAUNCHED_DESKTOP_FILE_PID: string;
 		npm_node_execpath: string;
+		npm_config_engine_strict: string;
 		GIO_LAUNCHED_DESKTOP_FILE: string;
 		LC_NUMERIC: string;
 		OLDPWD: string;
